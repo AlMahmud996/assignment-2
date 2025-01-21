@@ -1,0 +1,46 @@
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+/* Universal */
+.btn-primary{
+    background-color: #FEA301;
+    color: #FFFFFF;
+    font-weight: 300px;
+    padding: 10px 60.5px;
+    border-radius: 12px;
+    font-size: 20px;
+    border: none;
+    width: 197px;
+    height: 50px;
+
+}
+.display-flex{
+    display: flex;
+}
+
+/* NAVBAR */
+.navbar{
+    justify-content: space-around;
+}
+.nav-bar{
+    gap: 186px;
+    justify-content: space-around;
+    width: auto;
+    padding: 16px;
+    align-items: center;
+}
+.navbar-things{
+    font-size: 20px;
+    font-weight: 500;
+}
+ul{
+    justify-content: space-around;
+}
+ul li{
+    list-style: none;
+    margin-right: 50px;
+}
