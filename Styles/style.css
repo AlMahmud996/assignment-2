@@ -56,6 +56,50 @@ p{
     font-weight: 100;
     margin: 24px auto;
 }
+#kinder-img{
+    padding-left: 115.5px;
+    padding-top: 52.82px;
+    padding-bottom: 32.07;
+}
+h4{
+    padding-left: 78.57px;
+    font-size: 24.52px;
+    font-weight: bold;
+}
+.body-para{
+    padding-left: 40.88px;
+    padding-top: 33.48px;
+    color: #808080;
+    flex-wrap: wrap;
+}
+h6{
+    font-size: 15.09px;
+    font-weight: bold;
+    margin-left: 132.46px;
+}
+#purple-color{
+    color: #8700FF;
+}
+.grad-skb{
+    background-image: linear-gradient(to bottom, #DEF5FF , white);
+}
+.grad-orange{
+    background-image: linear-gradient(to bottom, #FFF4DC, white);
+}
+.grad-purple{
+    background-image: linear-gradient(to bottom, #EEE1FF, white);
+}
+.left-right-button{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #FEA301;
+    color: #FFFFFF;
+    font-weight: 300px;
+    font-size: 20px;
+    border: none;
+}
+
 /* NAVBAR */
 .navbar{
     
@@ -89,6 +133,36 @@ p{
     margin-top: 122px;
     margin-bottom: 24px;
 }
+/* BODY */
+.body{
+    background-image: ;
+}
+.Standard-curriculum-container{
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 18.86px;
+    width: 367.8px;
+    height: 518.78px;
+}
+.box-container{
+    gap: 28.29px;
+    border: 3px solid purple;
+}
+.standard-curriculum{
+    border: 3px solid pink;
+    width: 1158.61px;
+    margin-left: 145px;
+}
+.st{
+    border: 3px solid yellow;
+    width: 1158.61px;
+    margin-left: 145px;
+}
+.btn-pos{
+    margin-left: 655px;
+    gap: 10px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
 
 /* Footer */
 .footer-bg{
@@ -117,4 +191,5 @@ p{
 #footer-title{
     font-size: 42px;
     font-weight: bold;
+    margin: 0;
 }
