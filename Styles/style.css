@@ -109,7 +109,7 @@ h6{
     width: 1158.61px;
     align-items: center;
     margin-left: 145px;
-    border: 3px solid green;
+    
     justify-content: space-between;
 }
 .navbar-things{
@@ -118,14 +118,14 @@ h6{
 }
 /* Header */
 .header-container{
-    border: 3px solid green;
+    
     width: 1158.61px;
     margin-left: 145px;
 }
 .heading{
     width: 1158.61px;
     height: 575px;
-    border: 3px solid red;
+    
 }
 .heading-title{
     font-size: 56px;
@@ -145,15 +145,14 @@ h6{
 }
 .box-container{
     gap: 28.29px;
-    border: 3px solid purple;
+    
 }
 .standard-curriculum{
-    border: 3px solid pink;
     width: 1158.61px;
     margin-left: 145px;
 }
 .st{
-    border: 3px solid yellow;
+    
     width: 1158.61px;
     margin-left: 145px;
     align-items: center;
@@ -169,6 +168,12 @@ h6{
     justify-content: space-around;
     align-items: center;
     margin-left: 400px;
+}
+.back-image{
+    background-image: url(../assets/bg.png);
+}
+.back-grad{
+    background-image: linear-gradient(to top,#FFF4DC 30%, white);  
 }
 
 /* GRID */
@@ -221,17 +226,16 @@ p{
 
 /* Footer */
 .footer-bg{
-    border: 3px solid black;
+    border: 3px solid #01ACFD;
     background-color: #01ACFD;
-    width: 1439px;
-    height: 519px;
+    width: 1490px;
+    height: 400px;
 }
 .footer-part{
     margin-top: 123px;
     margin-left: 140px;
     margin-right: 228px;
     justify-content: space-between;
-    border: 3px solid yellow;
 }
 .ul-footer{
     margin-bottom: 20px;
@@ -328,11 +332,11 @@ p{
       }
       .footer-part{
         justify-content: space-between;
-        border: 3px solid yellow;
+        
         margin: 60px 20px;
       }
       .footer-bg{
-        width: 390px;
+        width: 500px;
         height: 642px;
       }
       .ul-foot{
@@ -348,29 +352,34 @@ p{
         object-fit: cover; 
       }
       .st{
-        border: 3px solid yellow;
+       
         width: 390px;
-        margin-left: 140px;
+        margin: 0;
         align-items: center;
+        
     }
     .btn-pos{
         display: none;
     }
     .standard-curriculum{
-        border: 3px solid pink;
+        
         width: 357px;
         margin-left: 0;
     }
     .sc{
-        border: 3px solid yellow;
+        
         width: 390px;
         margin-left: 140px;
         align-items: center;
     }
     .header-container, .nav-bar{
         margin-left: 0;
-        border: 3px solid green;
+        
         width: 357px;
     }
+    .standard{
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 150px;
 
 }
